@@ -1,0 +1,13 @@
+.form-container {
+    background-color: #FBD062;
+    height: 100%;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 10px;
+
+}
+
+form [type="text"] {
+    height: 70px;
+    font-size: 18px;
+}

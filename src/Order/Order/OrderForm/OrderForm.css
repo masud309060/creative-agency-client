@@ -1,0 +1,31 @@
+.order-form-area {
+    height: 100%;
+    width: 100%;
+}
+
+form [type="email"], form [type="file"] {
+    height: 70px;
+    font-size: 18px;
+}
+
+input[type="file"] {
+    display: none;
+}
+.file-upload {
+    display: inline-block;
+    padding-top: 20px;
+    cursor: pointer;
+    background-color: #DEFFED;
+    width: 23%;
+    height: 66px;
+    border-radius: 6px;
+    color: #009444;
+    border: 2px solid #009444;
+    transition: .5s;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.file-upload:hover {
+    background-color: #c9fce0;
+}

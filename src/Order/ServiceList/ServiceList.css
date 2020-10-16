@@ -1,0 +1,18 @@
+.select-menu {
+    border: none;
+    padding: 10px;
+    background-color: none;
+    color: #FF4545;
+    
+}
+.select-menu option {
+    padding: 10px;
+}
+.status-bar {
+    border: none;
+    background-color: lightcyan;
+    padding: 5px 16px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+}

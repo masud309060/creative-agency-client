@@ -1,0 +1,27 @@
+.icon-upload {
+    background-color: #DEFFED;
+    border: 2px solid #009444;
+    width: 200px;
+    height: 66px;
+    text-align: center;
+    color: #009444;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 6px;
+    padding-top: 20px;
+    transition: .5s;
+}
+
+
+.icon-upload:hover {
+    background-color: #c9fce0;
+}
+
+.add-service-area {
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+    padding: 50px;
+
+}
