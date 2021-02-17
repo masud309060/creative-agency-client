@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./Home/Home/Home";
-import Order from "./Order/Order/Order";
-import Login from "./Login/Login/Login";
 import { useState } from "react";
 import { createContext } from "react";
-import PrivateRoute from "./Login/Login/PrivateRoute";
+import Home from "./components/Home/Home";
+import PrivateRoute from "./components/Login/PrivateRoute";
+import Order from "./components/Order/Order";
+import Login from "./components/Login/Login";
 
 export const userContext = createContext();
 
@@ -23,22 +23,21 @@ function App() {
   return (
     <userContext.Provider value={{user:[userLogin, setUserLogin], service:[selectedService,setSelectedService]}}>
       <Router>
-      {/* <Order></Order> */}
         <Switch>
           <Route path="/home">
-            <Home></Home>
+            <Home /> 
           </Route>
 
           <PrivateRoute path="/order">
-            <Order></Order>
+            <Order /> 
           </PrivateRoute>
 
           <Route path="/login">
-            <Login></Login>
+            <Login /> 
           </Route>
 
           <Route exact path="/">
-            <Home></Home>
+            <Home /> 
           </Route>
 
         </Switch>
